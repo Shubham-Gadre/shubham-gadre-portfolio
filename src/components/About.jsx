@@ -1,5 +1,5 @@
 import React from 'react'
-import Tilt from 'react-tilt'
+import Tilt from 'react-parallax-tilt'
 import {motion} from 'framer-motion'
 import {styles} from '../style'
 import {services} from '../constants'
@@ -26,7 +26,7 @@ const ServiceCard=({index,title,icon})=>{
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
-        
+
 
 
         <h3 className='text-white text-[20px] font-bold text-center'>
